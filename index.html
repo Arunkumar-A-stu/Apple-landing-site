@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Asserts/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="main">
+        <nav class="navbar">
+            <i class="ri-apple-fill"></i>
+            <a href="" class="nav-hide">Store</a>
+            <a href="" class="nav-hide">Mac</a>
+            <a href="" class="nav-hide">iPhone</a>
+            <a href="" class="nav-hide">iPad</a>
+            <a href="" class="nav-hide">Watch</a>
+            <a href="" class="nav-hide">AirPods</a>
+            <a href="" class="nav-hide">TV & Home</a>
+            <a href="" class="nav-hide">Entertainment</a>
+            <a href="" class="nav-hide">Accessories</a>
+            <a href="" class="nav-hide">Support</a>
+            <i class="ri-search-line"></i>
+            <i class="ri-shopping-bag-line"></i>
+            <i class="ri-menu-line" id="menu" onclick="openMenu()"></i>
+        </nav>
+
+        <nav class="navbar-mobile">
+            <i class="ri-close-line" onclick="closeMenu()"></i>
+            <a href="">Store</a>
+            <a href="">Mac</a>
+            <a href="">iPhone</a>
+            <a href="">iPad</a>
+            <a href="">Watch</a>
+            <a href="">AirPods</a>
+            <a href="">TV & Home</a>
+            <a href="">Entertainment</a>
+            <a href="">Accessories</a>
+            <a href="">Support</a>
+        </nav>
+
+        <div class="hero1">
+            <div class="hero1-text">
+                <h1>iPhone 16<span>e</span></h1>
+                <p>Supersized battery life.</p>
+                <div class="btncls">
+                    <button>Learn more</button>
+                    <button id="buybtn">Buy</button>
+                </div>
+            </div>
+            <div class="foot">
+                <p>Built for Apple Intelligence.</p>
+            </div>
+        </div>
+
+         <div class="hero2">
+            <div class="hero2-text">
+                <h1>iPhone 16 Pro</h1>
+                <p>Built for Apple Intelligence.</p>
+            </div>
+            <div class="btncls2">
+                <button>Learn more</button>
+                <button id="buybtn">Buy</button>
+            </div>
+        </div>
+
+        <div class="hero3">
+            <div class="hero3-text">
+                <h1>iPhone 16</h1>
+                <p>Built for Apple Intelligence.</p>
+            </div>
+            <div class="btncls3">
+                <button>Learn more</button>
+                <button id="buybtn">Buy</button>
+            </div>
+        </div>
+        <div class="gridbox">
+            <div class="gb-1">
+                <div class="gb1-text">
+                    <img src="./Asserts/promo_logo_apple_watch_series_10__qk5vaa89vnm2_large.png" alt="">
+                    <p>Thinstant classic.</p>
+                    <div class="gb1btn">
+                        <button>Learn more</button>
+                        <button id="buybtn">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gb-2">
+                <div class="gb2-text">
+                    <h1>iPad Pro</h1>
+                    <p>Unbelievably thin. Incredibly powerful.</p>
+                    <div class="gb2btn">
+                        <button>Learn more</button>
+                        <button id="buybtn">Buy</button>
+                    </div>
+                </div>
+                <div class="foot">
+                    <p>Built for Apple Intelligence.</p>
+                </div>
+            </div>
+        </div>
+        <div class="gridbox2">
+            <div class="gb2-1">
+                <div class="gb2-1-text">
+                    <h1>MacBook Air</h1>
+                    <p>Supercharged by M3.</p>
+                    <div class="gb1btn">
+                        <button>Learn more</button>
+                        <button id="buybtn">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gb2-2">
+                <div class="gb2-2-text">
+                    <h1>AirPods 4</h1>
+                    <p>Iconic. Now supersonic.
+                        Available with Active Noise Cancellation.</p>
+                    <div class="gb2btn">
+                        <button>Learn more</button>
+                        <button id="buybtn">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gridbox3">
+            <div class="gb3-1">
+                <div class="gb3-1-text">
+                    <h1>MacBook Pro</h1>
+                    <p>A work of smart.</p>
+                    <div class="gb1btn">
+                        <button>Learn more</button>
+                        <button id="buybtn">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gb3-2">
+                <div class="gb3-2-text">
+                    <img src="./Asserts/promo_logo_iphone_tradein__7y3gtai5az66_large.png" alt="">
+                    <p>Upgrade and save. It's that easy.</p>
+                    <div class="gb2btn">
+                        <button>Get your estimate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-part">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (1).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (2).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (3).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (4).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (5).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (6).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (7).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (8).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (9).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (10).jpg"></div>
+                  <div class="swiper-slide"><img src="./Asserts/689x387 (11).jpg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
