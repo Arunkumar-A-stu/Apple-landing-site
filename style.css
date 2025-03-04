@@ -451,7 +451,7 @@ color: black
 
 .slider-part{
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     background-color: black;
 }
 
@@ -525,7 +525,7 @@ color: black
 
 
 
-  @media screen and (max-width: 830px) {
+  @media screen and (max-width: 1024px) {
     .navbar i{
         font-size: 1.5em;
         top: 2vh;
@@ -631,6 +631,16 @@ color: black
         background-image: url("./Asserts/mobile/hero_iphone16pro_small.jpg");
     }
 
+
+    .hero2-text{
+        position: absolute;
+        display: flex;
+        top: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:1vh;
+    }
     .hero2-text h1{
         font-size: 2em;
     }
@@ -684,11 +694,22 @@ color: black
     }
 
     .gb2-text{
-        left:1%;
+        left:-30px;
         padding-left: 10%;
     }
+    .gb2-text p{
+        font-size:1em;
+    }
+
     .gb2-1-text p{
         font-size:1em;
+    }
+
+    .gb2-2-text p{
+        padding-left: 10%;
+        font-size:1em;
+        justify-content: center;
+        align-items: center;
     }
 
     .gb3-1{
