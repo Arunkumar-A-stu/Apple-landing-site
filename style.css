@@ -586,15 +586,31 @@ color: black
     .hero1-text p{
         font-size: 1.5em;
     } 
+    .foot{
+        display: none;
+    }
     .btncls{
         display: flex;
         gap: 1vw;
         margin-top: 1.4vh;
     }
+
+    .gb1btn button{
+        border-radius: 50px;
+        padding: 1vh 2vw;
+        border: none;
+        background-color: #0071e3;
+        color: white;
+        height: 6vh;
+        cursor: pointer;
+        font-size: 3vw;
+        font-weight: 400;
+        
+    }
     
     button{
         border-radius: 50px;
-        padding: 1.5vh 2vw;
+        padding: 1vh 2vw;
         border: none;
         background-color: #0071e3;
         color: white;
@@ -614,16 +630,51 @@ color: black
     .hero2{
         background-image: url("/Asserts/mobile/hero_iphone16pro_avail__fnf0f9x70jiy_small.jpg");
     }
+
+    .hero2-text h1{
+        font-size: 2em;
+    }
+
+    .hero2-text p{
+        font-size: 1em;
+    }
     .hero3{
         background-image: url("/Asserts/mobile/hero_iphone16_avail__euwzls69btea_small.jpg");
     }
+
+
+    .hero3-text{
+        left:70px;
+    }
+
+    .hero3 .btncls3{
+        left: -90px;
+    }
+
+    .hero3-text h1{
+        font-size: 2em;
+    }
+
+    .hero3-text p{
+        font-size: 1em;
+    }
+
 
     .gb-1{
         background-image: url("/Asserts/mobile/promo_apple_watch_series_10_avail__b9etp10v9tn6_small.jpg");
     }
 
+    .gb1-text p{
+        font-size:1em;
+    }
+
+
     .gb-2{
         background-image: url("/Asserts/mobile/promo_ipadpro_avail__s271j89g8kii_small.jpg");
+    }
+
+    .gb2-2-text p{
+        font-size:1em;
     }
     .gb2-1{
         background-image: url("/Asserts/mobile/promo_macbook_air_m3__e43jegok3wuq_small.jpg");
@@ -631,6 +682,15 @@ color: black
     .gb2-2{
         background-image: url("/Asserts/mobile/promo_airpods_4_avail__bl22kvpg6ez6_small.jpg");
     }
+
+    .gb2-text{
+        left:1%;
+        padding-left: 10%;
+    }
+    .gb2-1-text p{
+        font-size:1em;
+    }
+
     .gb3-1{
         background-image: url("/Asserts/mobile/promo_macbookpro_announce__gdf98j6tj2ie_small.jpg");
     }
@@ -641,5 +701,11 @@ color: black
         width: 100%;
         height: 50vh;
     }
-    
+    .gb3-1-text p, .gb3-2-text p{
+        font-size: 1em;
+    }
+
+    .swiper-slide{
+        height: 90vh;
+    }
   }
