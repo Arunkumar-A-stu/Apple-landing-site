@@ -66,15 +66,16 @@
       loop: true,
     });
 
-    function openMenu(){
-      const sidebar = document.querySelector(".navbar-mobile");
-      sidebar.style.display = "flex";
-    }
-    
-    function closeMenu(){
-      const sidebar = document.querySelector(".navbar-mobile");
-      sidebar.style.display = "none";
-    }
+
 });
 
+function openMenu(){
+  const sidebar = document.querySelector(".navbar-mobile");
+  sidebar.style.display = "flex";
+}
+
+function closeMenu(){
+  const sidebar = document.querySelector(".navbar-mobile");
+  sidebar.style.display = "none";
+}
 
